@@ -95,7 +95,9 @@ where “good” values are untouched and “bad” values are set to -999."""
 def clean_pitch(x, status):
     cleaned = []
     for i in range(len(x)):
-        if x[i]>90 or x[i]<0:
+        if x[i]>90 and status[i]==1:
+            cleaned.append(-999)
+        elif x[i]<0 and status[i]==1:
             cleaned.append(-999)
         else: 
             cleaned.append(x[i])
