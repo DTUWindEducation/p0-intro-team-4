@@ -1,0 +1,40 @@
+#Importing functions
+
+from functions_klara import greet
+from functions_klara import goldilocks
+from functions_klara import square_list
+from functions_klara import fibonacci_stop
+from functions_klara import clean_pitch
+
+
+
+#demonstating task 1
+greet('world')
+
+#demonstating task 2
+goldilocks(139)
+goldilocks(140)
+goldilocks(151)
+goldilocks(150)
+
+#demonstating task 3
+print(square_list([1,2,3]))
+
+#demonstating task 4
+print(fibonacci_stop(60))
+
+
+#demonstating task 5
+x=[-1,2,3,95]
+status=[1,0,0,0]
+
+print(clean_pitch(x,status))
+
+
+#Ecxecuting functions??
+if __name__ == '__main__':
+    greet()
+    goldilocks()
+    square_list()
+    fibonacci_stop()
+    clean_pitch()
