@@ -15,7 +15,7 @@ then prints "Hello, <name>!" to the screen.
 def greet(name):
     print(f'Hello, {name}!')
 
-greet('world')
+#greet('world')
 
 
 #%% TASK 2
@@ -34,10 +34,10 @@ def goldilocks(length):
     else:
         print('Just right. :)')
 
-goldilocks(139)
-goldilocks(140)
-goldilocks(151)
-goldilocks(150)
+#goldilocks(139)
+#goldilocks(140)
+#goldilocks(151)
+#goldilocks(150)
 
 
 #%% TASK 3
@@ -50,7 +50,7 @@ def square_list(lst):
         list_squared.append(i**2)
     return list_squared
 
-print(square_list([1,2,3]))
+#print(square_list([1,2,3]))
 
 
 #%% TASK 4
@@ -70,7 +70,7 @@ def fibonacci_stop(max_value):
         fib_sequence.append(value)
     return fib_sequence
 
-print(fibonacci_stop(60))
+#print(fibonacci_stop(60))
 
 #%% TASK 5
 """
@@ -103,9 +103,9 @@ def clean_pitch(x, status):
             cleaned.append(x[i])
     return cleaned
 
-x=[-1,2,3,95]
-status=[1,0,0,0]
+#x=[-1,2,3,95]
+#status=[1,0,0,0]
 
-print(clean_pitch(x,status))
+#print(clean_pitch(x,status))
 
 
