@@ -34,6 +34,7 @@ def goldilocks(length):
     else:
         print('Just right. :)')
 
+
 #goldilocks(139)
 #goldilocks(140)
 #goldilocks(151)
