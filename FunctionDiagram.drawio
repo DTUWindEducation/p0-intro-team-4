@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="wpTLzD8YlLeRnqk4IgwK" name="Page-1">
+        <mxGraphModel dx="1492" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Function: greet&lt;br&gt;Input: name (str)&lt;br&gt;Output:&amp;nbsp;&lt;code data-end=&quot;731&quot; data-start=&quot;725&quot;&gt;None&lt;/code&gt; (prints &lt;code data-end=&quot;758&quot; data-start=&quot;740&quot;&gt;&quot;Hello, {name}!&quot;&lt;/code&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="50" width="220" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Function: goldilocks&lt;div&gt;Input: bed_length(int)&lt;/div&gt;&lt;div&gt;Output: None (prints a message)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="60" width="200" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Function: square_list&lt;br&gt;Input:&amp;nbsp; numbers(int)&lt;br&gt;Output:&amp;nbsp;&lt;br&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;code data-end=&quot;1762&quot; data-start=&quot;1751&quot;&gt;list[int]&lt;/code&gt; (squared numbers)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="250" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;br&gt;Function: fibonacci_stop&lt;div&gt;Input: n(int)&lt;br&gt;Output:&amp;nbsp;&lt;/div&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;code data-end=&quot;2397&quot; data-start=&quot;2392&quot;&gt;int&lt;/code&gt; (Fibonacci number) or &lt;code data-end=&quot;2427&quot; data-start=&quot;2420&quot;&gt;&quot;str&quot;&lt;/code&gt; (error message)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="250" width="360" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Function: clean_pitch&lt;div&gt;Input:&amp;nbsp;&lt;code data-end=&quot;3318&quot; data-start=&quot;3285&quot;&gt;pitch_measurements: list[float]&lt;/code&gt;&lt;br&gt;&lt;code data-end=&quot;3349&quot; data-start=&quot;3322&quot;&gt;status_signals: list[int]&lt;/code&gt;&lt;br&gt;Output:&amp;nbsp;&lt;code data-end=&quot;3365&quot; data-start=&quot;3352&quot;&gt;list[float]&lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; (cleaned values) or &lt;/span&gt;&lt;strong style=&quot;background-color: transparent;&quot; data-end=&quot;3407&quot; data-start=&quot;3386&quot;&gt;raises ValueError&lt;/strong&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="500" width="420" height="260" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
